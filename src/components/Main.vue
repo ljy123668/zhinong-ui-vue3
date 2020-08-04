@@ -1,11 +1,11 @@
 <template>
-  <h1>{{ msg }}</h1>
-  <h2>第一个组件</h2>
+
+  <h2>Main组件</h2>
 </template>
 
 <script>
 export default {
-  name: 'Home',
+  name: 'Main',
   props: {
     msg: String
   },
