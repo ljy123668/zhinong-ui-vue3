@@ -1,19 +1,10 @@
+import './lib/z.scss'
+import './index.scss'
 import { createApp } from 'vue'
 import App from './App.vue'
-import './index.css'
-import {createWebHashHistory,createRouter} from 'vue-router'
-import Home from './components/Home.vue'
-import Main from './components/Main.vue'
 
+import { router } from './router';
 
-const history = createWebHashHistory()
-const router = createRouter({
-    history:history,
-    routes:[
-        {path:'/',component:Home},
-        {path:'/main',component:Main}
-    ]
-})
 
 const app = createApp(App)
 app.use(router)
