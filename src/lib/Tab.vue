@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{title}}
+    <slot />
   </div>
 </template>
 <script>
