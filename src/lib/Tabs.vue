@@ -43,6 +43,7 @@ export default {
     const indicator = ref<HTMLDivElement>(null);
     const container = ref<HTMLDivElement>(null);
     onMounted(() => {
+      //第一次变化执行
       watchEffect(() => {
         const { width } = selectedItem.value.getBoundingClientRect();
         indicator.value.style.width = width + "px";

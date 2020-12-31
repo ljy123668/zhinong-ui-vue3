@@ -75,6 +75,7 @@ export default {
       // context.emit("ok");
     };
     const cancel = () => {
+      props.cancel?.()
       context.emit("cancel");
       close();
     };
