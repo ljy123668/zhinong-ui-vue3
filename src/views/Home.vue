@@ -3,7 +3,7 @@
     <div class="topnavAndBanner">
       <Topnav />
       <div class="banner">
-        <h1>ZUI</h1>
+        <h1>Z-UI</h1>
         <h2>UI框架</h2>
         <p class="actions">
           <a href="">GitHub</a>
