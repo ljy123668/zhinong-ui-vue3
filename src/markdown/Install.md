@@ -1,15 +1,15 @@
 # 安装
 
-    打开终端运行下列命令
+打开终端运行下列命令
 
 ```
- npm install z-ui
+npm install z-ui
 ```
 
 或
 
 ```
- yarn install z-ui
+yarn install z-ui
 ```
 
     下一节:[开始使用](#/doc/get-started)
