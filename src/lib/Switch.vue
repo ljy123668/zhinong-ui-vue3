@@ -7,10 +7,6 @@
     >
       <span></span>
     </button>
-
-    <div>
-      {{value}}
-    </div>
   </div>
 </template>
 
