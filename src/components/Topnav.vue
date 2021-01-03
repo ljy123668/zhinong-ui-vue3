@@ -10,9 +10,8 @@
     </router-link>
     <ul class="menu">
       <li>
-        <router-link to="/Doc">文档</router-link>
+        <!-- <router-link to="/doc/intro">文档</router-link> -->
       </li>
-
     </ul>
 
     <svg
