@@ -3,8 +3,8 @@
     <div class="topnavAndBanner">
       <Topnav />
       <div class="banner">
-        <h1>Z-UI</h1>
-        <h2>UI框架</h2>
+        <h1>ZHINONG-UI</h1>
+        <h2>一个学习 Vue3 搭建的简单 UI 框架</h2>
         <p class="actions">
           <a href="">GitHub</a>
           <router-link to="/doc">开始</router-link>

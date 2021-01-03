@@ -6,7 +6,7 @@
   <Button @click="showDialog">打开对话框</Button>
 </template>
 <script lang="ts">
-import Button from '../lib/Button.vue'
+import { Button }from "../lib/index";
 import {
   ref,
   h

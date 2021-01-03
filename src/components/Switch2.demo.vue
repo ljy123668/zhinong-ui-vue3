@@ -6,8 +6,7 @@
      <Switch v-model:value="bool" disabled />
 </template>
 <script lang="ts">
-import Button from "../lib/Button.vue";
-import Switch from "../lib/Switch.vue";
+import { Switch,Button }from "../lib/index";
 import { ref } from "vue";
 export default {
   components: {
