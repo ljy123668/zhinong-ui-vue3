@@ -1,5 +1,4 @@
 <template>
-  <div>
     <button
       class="z-switch"
       :class="{'z-checked':value}"
@@ -7,7 +6,6 @@
     >
       <span></span>
     </button>
-  </div>
 </template>
 
 <script>
